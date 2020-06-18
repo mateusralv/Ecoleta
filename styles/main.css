@@ -157,28 +157,3 @@ main a {
 
     text-align: center;
 }
-
-@media (max-width: 900px) {
-    #page-home {
-        background-position-x: 70vw ; /* faz com que a imagem suma quando passa de 900px*/
-    }
-
-    #page-home .content {
-        align-items: center;
-        text-align: center;
-    }
-
-    #page-home header a {
-        position: absolute; /*Funciona como se criasse uma folha em cima com todas as configurações livres */
-        bottom: 48px;
-
-        left: 50%; /*A ideia era colocar no meio mas o 'a' possue um tamanho então temos que 'desconsiderar' esse tamanho usando a propriedade a seguir*/
-        transform: translateX(-50%);
-
-    }
-
-    #page-home main {
-        text-align: center; 
-        align-items: center;
-    }
-}
