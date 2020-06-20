@@ -2,7 +2,8 @@
     height: 100vh; /*Dinamico e pega a imagem toda*/
 
     background: url('../icones/home-background.svg') no-repeat; /*Coloca uma imagem no background o no repeat serve pra não deixar a imagem se repetir */
-    background-position: 35vw 70px;  /*o vw = view width, até o bottom*/
+    background-position-x: 35vw;
+    background-position-y: 70px;  /*o vw = view width, até o bottom*/
 
 }
 
