@@ -45,6 +45,84 @@ form {
     border-radius: 8px;
 
     max-width: 730px;
+}
 
+form h1 {
+    font-size: 36px;
+}
 
+form fieldset { /*O fieldset em html são as caxas, tipo h1, só que melhores por defult vem com bordas*/
+    margin-top: 64px;
+
+    border: 0; /*Responsavel por tirar a borda */
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2{
+    font-size: 24px;
+}
+
+form .field {
+    display: flex;
+    flex: 1;
+    flex-direction: column; /*Faz com que o flex do display fique na direção das colunas (??)*/
+
+    margin-bottom: 24px;
+}
+
+form .field-group{
+    display: flex;
+}
+
+form input,
+form select {
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+
+    border-radius: 10px;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+
+    outline: none; /*tira a borda preta quando o input ta selecionado */
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: var(--primary-color);
+    border-radius: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: 400ms;
+}
+
+form button:hover {/*Quando passar o mause encima*/
+    background-color: #2fb86e;
 }
