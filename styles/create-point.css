@@ -4,6 +4,8 @@
 
     margin: 0 auto;
 
+
+
 }
 
 #page-create-point header {
@@ -31,4 +33,18 @@
 
     width: 20px;
     height: 24px;
+}
+
+form {
+    background-color: white;
+
+    margin: 80px auto;
+
+    padding: 64px; /*preenchimento então eu fixei o preenchimento em 64 px ele estica a caixa */
+
+    border-radius: 8px;
+
+    max-width: 730px;
+
+
 }
